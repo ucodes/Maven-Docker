@@ -12,7 +12,7 @@ job('First-Maven-Project-Via-DSC') {
 		scm('* * * * *')
 	} 
 	steps { 
-		maven('clean package', 'Maven-Docker/pom.xml') 
+		maven('clean package', 'Maven-Docker/src/pom.xml') 
 	}
 	publishers { 
 		//archive the war file generated
