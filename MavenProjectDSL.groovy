@@ -13,3 +13,4 @@ job('First-Maven-Project-Via-DSC') {
 		//archive the war file generated
 		archiveArtifacts '**/*.jar' 
 	} 
+}
